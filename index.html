@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World Canvas</title>
+
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleCanvas.css" />
+    <meta charset="utf-8" />
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: 'AIzaSyCu5AjwQ-tfv_sKroiBN4mlmMCtWb5oXgA',
+        authDomain: 'advanced-trex-game-1.firebaseapp.com',
+        databaseURL: 'https://advanced-trex-game-1.firebaseio.com',
+        projectId: 'advanced-trex-game-1',
+        storageBucket: 'advanced-trex-game-1.appspot.com',
+        messagingSenderId: '869261029098',
+        appId: '1:869261029098:web:23c937e8feafa5b8327193',
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <!-- <div class="arrowSaved">
+      <a href="list.html"
+        ><img src="images/arrowertrans.png" width="100" height="20"
+      /></a>
+    </div> -->
+  </head>
+
+  <body>
+    <script src="worldCanvas.js"></script>
+    <script src="worldCircleMouse.js"></script>
+
+    <div class="invertedArrow">
+      <a href="index.html"
+        ><img src="images/arrowInverted.png" width="170" height="90"
+      /></a>
+    </div>
+  </body>
+</html>

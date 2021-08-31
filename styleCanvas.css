@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  margin-left: 200px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+  border-color: #7fffd4;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+body {
+  background-color: lightsalmon;
+}
+* {
+  border-radius: 50px;
+  border-color: #7fff00;
+}
+/* .arrowSaved {
+  margin-left: 1150px;
+  margin-bottom: -20px;
+} */
